@@ -136,7 +136,7 @@ signal.signal(signal.SIGINT, signal_handler)
 
 # Connect to camera
 camera = AmcrestCamera(
-    amcrest_host, amcrest_port, amcrest_username, amcrest_password
+    amcrest_host, amcrest_username, amcrest_password
 ).camera
 
 # Fetch camera details
